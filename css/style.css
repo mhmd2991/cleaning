@@ -629,7 +629,7 @@ header .container nav ul li a:hover {
 .reviews .arrow {
     display: block;
     position: absolute;
-    font-size: 2rem;
+    font-size: 1rem;
     top: 50%;
     transform: translateY(-50%);
     padding: .5rem;
@@ -770,6 +770,13 @@ header .container nav ul li a:hover {
         transform: scale(0);
     }
 }
+
+@media(min-width: 768px) {
+    .reviews .arrow {
+        font-size: 2rem;
+    }
+}
+
 
 /* End Review Section  */
 /* Start Pricing Section  */
